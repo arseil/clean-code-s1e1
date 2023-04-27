@@ -26,7 +26,9 @@
   }
 }
   
-.addition {
+.addition,
+.todo,
+.completed {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -42,7 +44,8 @@
   display: flex;
 }
   
-.todo-list {
+.todo-list,
+.completed__list {
   margin: 0;
   padding: 0px;
 }
@@ -106,7 +109,7 @@ label[for="addition__new-task"] {
   margin: 0 0 20px;
 }
 
-input#addition__new-task {
+#addition__new-task {
   width: 318px;
 }
 
